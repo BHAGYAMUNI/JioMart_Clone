@@ -1,0 +1,493 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border:border-box;
+}
+/*header*/
+.head-panel{
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0078ad;
+}
+.logo{
+    height:32px;
+    color: white;
+}
+.add_icon{
+    height: 36px;
+    width: 200px;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 4px 15px;
+    background-color: #0078ad;
+    font-family:  helvetica, arial, sans-serif;
+}
+.add-icon i{
+    margin-right: 8px;
+}
+.border{
+    border-radius:250px;
+}
+.border:hover{
+    background-color: #0C5273;
+}
+.search{
+    height: 30px;
+    width: 630px;
+    background-color: #0C5273;
+    border-radius:250px;
+    padding: 10px 15px 5px 20px;
+    display: flex;
+    align-items: center;
+    /* position: relative; */
+}
+.icon{
+    height:24px;
+    width: 24px;
+    padding: 0px 4px 0px 0px;
+}
+.search-input{
+    width: 100%;
+    color: white;
+    background-color: #0C5273;
+    border:none;
+    font-size: 18px;
+    padding: 2px 40px 5px 3px;
+    font-weight: bold;
+    outline: none;
+}
+.search-input::placeholder {
+    color: white;
+}
+.last{
+    height:20px;
+    width:40px;
+}
+.cart{
+   padding: 5px; 
+}
+.cart i{
+    font-size:19px ;
+    width: 30px;
+    height: 20px;
+}
+.sign-in{
+    height:40px;
+    width: 120px;
+    margin:0px 0px 0px 1px;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+.text{
+    height:24px;
+    margin:0px 0px 0px 8px;
+    color: white;
+    font-weight: bold;
+    padding-top: 9px;
+}
+
+/*nav-bar*/
+.navbar{
+    height:50px;
+    background-color: #0C5273;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbar a{
+    text-decoration: none;
+    color:#FFFFFF;
+    height:44px;
+    padding:25px 2px 2px;
+    font-weight: bold;
+    margin-left: 1px;
+}
+
+/*body*/
+.main-panel{
+    background-color: white;
+}
+.panel-1{
+    padding-left:70px;
+    padding-right:20px;
+    height: 260px;
+    width:90%;
+    display: flex;
+    /*align-items: flex-start;*/
+    justify-content: space-evenly;
+
+}
+.box{
+    height:190px;
+    width:28%;
+    border-radius: 35px;
+    background-color: red;
+    padding: 20px 15px 30px 15px;
+}
+.box1{  
+    background-image: url("images/box1.webp");
+    background-size: cover;
+}
+.box2{  
+    background-image: url("https://www.jiomart.com/images/cms/aw_rbslider/slides/1717790407_Biscuits.jpg?im=Resize=(768,448)");
+    background-size: cover;
+}
+.box3{  
+    background-image: url("https://www.jiomart.com/images/cms/aw_rbslider/slides/1717177938_Rusk_Mela.jpg?im=Resize=(768,448)");
+    background-size: cover;
+}
+.panel-2{
+    padding: 20px 55px 30px 55px;
+    height: 180px;
+    margin-top: 20px;
+    margin-left: 100px;
+    width:1190px;
+    background-image:url("https://www.jiomart.com/images/cms/aw_rbslider/slides/1714050495_DailyMandi_1184x200.jpg?im=Resize=(2368,400)");
+    background-size: cover;
+    border-radius: 35px;
+}
+.box4{  
+    background-image: url("https://www.jiomart.com/images/cms/aw_rbslider/slides/1717178296_Oral_Care.jpg?im=Resize=(768,448)");
+    background-size: cover;
+}
+.box5{  
+    background-image: url("https://www.jiomart.com/images/cms/aw_rbslider/slides/1717177877_Back_to_School.jpg?im=Resize=(768,448)");
+    background-size: cover;
+}
+.box6{  
+    background-image: url("https://www.jiomart.com/images/cms/aw_rbslider/slides/1717790474_ENGLISH.jpg?im=Resize=(768,448)");
+    background-size: cover;
+}
+.heading h2{
+    font-size: 24px;
+    font-weight: 900;
+    color:#141414;
+    margin-left: 110px;
+    padding-left: 1px;
+}
+.heading a{
+    font-size: 16px;
+    color:#0c5273;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 910px;
+
+    
+}
+.heading{
+    width: 1500px;
+    display: flex;
+    height: 24px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+.panel-3{
+    height:310px;
+    width:84%;
+    /* background-color: aquamarine; */
+    display: flex;
+    margin-left: 115px;
+    justify-content: space-evenly;
+}
+.boxes{
+    height: 310px;
+    /* border: 1px solid black; */
+    width:18%;
+    margin-right: 43px;
+    
+}
+.image1{
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/491378641/park-avenue-signature-collection-neo-perfume-spray-for-men-220-ml-product-images-o491378641-p491378641-0-202203252310.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.details{
+    height: 90px;
+    /* background-color: bisque; */
+}
+
+.name{
+    height: 15px;
+    color:#141414;
+    font-size: 14px;
+    padding-left: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+.cost{
+    height: 15px;
+    color:#141414;
+    font-size: 14px;
+    padding-left: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+.cross{
+    height: 15px;
+    color:#B5B5B5;
+    font-size: 14px;
+    padding-left: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+.discount{
+    height:15px;
+    background-color: #E5F7EE;
+    margin:0px 0px 0px 4px;
+    padding:2px 4px;
+    font-size: 14px;
+    margin: 5px;
+    font-weight: bold;
+}
+.button{
+    height:44px;
+    margin: 8px 0px 0px;
+    color: #141414;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.add{
+    width:180px;
+    font-size: 16px;
+    padding: 7px 16px;
+    color: #0C5273;
+    border-radius: 250px;
+    background-color: white;
+    font-weight: bold;
+}
+.image2{
+    
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/492059077/daawat-devaaya-biryani-basmati-rice-1-kg-product-images-o492059077-p590319450-0-202203170319.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.image3{
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/492591953/lizol-citrus-disinfectant-surface-cleaner-625-ml-pack-of-2-product-images-o492591953-p591189267-0-202310111910.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.image4{
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/491696355/lay-s-india-s-magic-masala-potato-chips-90-g-product-images-o491696355-p590121911-0-202307142035.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.image5{
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/493828270/ariel-top-load-matic-liquid-detergent-3-2-l-product-images-o493828270-p604287577-0-202309081016.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.image6{
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/490001985/real-fruit-power-guava-nectar-1-l-product-images-o490001985-p490001985-0-202301171651.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.panel-4{
+    height: 260px;
+    width:600px;
+    margin-left: 95px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.re{
+    height: 260px;
+    width: 185px;
+    /* background-color: brown; */
+    
+}
+.img1{
+    height: 260px;
+    width: 185px;
+    background-image: url("https://www.jiomart.com/images/cms/aw_rbslider/slides/1713183020_1.jpg?im=Resize=(368,538)");
+    background-size: cover;
+    border-radius: 24px;
+}
+.img2{
+    margin-left: 7px;
+    height: 260px;
+    width: 185px;
+    background-image: url("https://www.jiomart.com/images/cms/aw_rbslider/slides/1713183030_2.jpg?im=Resize=(368,538)");
+    background-size: cover;
+    border-radius: 24px;
+}
+.img3{
+    margin-left: 14px;
+    height: 260px;
+    width: 185px;
+    background-image: url("https://www.jiomart.com/images/cms/aw_rbslider/slides/1713183041_3.jpg?im=Resize=(368,538)");
+    background-size: cover;
+    border-radius: 24px;
+}
+.images1{
+    
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/490020724/glucon-d-original-450-g-product-images-o490020724-p490020724-0-202206221750.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.images2{
+    
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/490057054/hamdard-roohafza-sharbat-syrup-750-ml-product-images-o490057054-p490057054-0-202203151750.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.images3{
+    
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/490001795/maaza-mango-drink-1-2-l-product-images-o490001795-p490001795-0-202301272130.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.images4{
+    
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/491179454/coca-cola-zero-sugar-300-ml-product-images-o491179454-p491179454-0-202209301805.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.images5{
+    
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/490004176/pepsi-2-l-product-images-o490004176-p490004176-0-202203170742.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.images6{ 
+    height: 200px;
+    width: 180px;
+    background-image: url("https://www.jiomart.com//images/product/original/492339545/storia-tender-coconut-water-1-l-product-images-o492339545-p590441811-0-202210281658.jpg?im=Resize=(310,310)");
+    background-size: cover; 
+}
+.panel-5{
+    height: 930px;
+    width:1310px;
+    margin-left: 100px;
+   background-image: url("images/panel5.png");
+     background-size: cover;
+}
+.panel-6{
+    height: 260px;
+    width:1290px;
+    margin-left: 120px;
+    background-image: url("images/panel6.png");
+    background-size: cover;
+}
+.panel-7{
+    height: 240px;
+    margin-left: 115px;
+    width: 1285px;
+    background-image: url("images/panel7.png");
+    background-size: cover;
+}
+footer{
+    width: 1510px;
+    height: 500px;
+    background-color: #F5F5F5;
+}
+.foot-panel2{
+    width: 1510px;
+    height: 440px;
+    display: flex;
+    justify-content: space-between;
+}
+.lists{
+    margin-left: 1px;
+    height: 430px;
+    width: 1270px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    padding: 4px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 7px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000A6;
+    font-weight: bold;
+}
+.contact{
+    width: 300px;
+    height: 430px;
+    color: #000000A6;
+    font-weight: bold;
+}
+.contact a{
+    text-decoration: none;
+}
+.title{
+    height: 48px;
+    width:270px;
+    padding:8px 0px 16px;
+    font-size:24px;
+    color:#141414;
+    font-weight: bold;
+
+}
+.headings h2{
+    font-weight: 900;
+    color:#141414;
+    padding-left: 1px;
+    margin-left: 1px;
+}
+.app{
+    padding-right: 10px;
+    height: 44px;
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+.app1{
+    background-image: url("https://www.jiomart.com/assets/ds2web/jds-icons/google-play-icon.svg");
+    background-size: cover;
+    width: 146px;
+}
+.app2{
+    background-image: url("https://www.jiomart.com/assets/ds2web/jds-icons/ios_app_icon.svg");
+    background-size: cover;
+    width: 132px;
+}
+.footer-bottom{
+    margin-top: 10px;
+    height: 60px;
+    width: 1510px;
+    display: flex;
+    align-items: center;
+}
+.base1{
+    display: flex;
+    height: 54px;
+    width: 420px;
+    margin-left: 70px;
+}
+.part1{
+    padding-left: 18px;
+    height: 44px;
+    width: 26px;
+    margin: 0px 12px 0px 40px;
+    background-image: url("https://www.jiomart.com/assets/ds2web/jds-icons/jiomart-logo-icon.svg");
+    background-size: cover;
+}
+.part2{
+    margin-top: 17px;
+    font-size: 12px;
+    background-color: #58515154;
+    height: 16px;
+    color: #000000A6;
+    width:260px;
+    align-items: center;
+}
